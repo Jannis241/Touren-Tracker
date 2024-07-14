@@ -3,8 +3,8 @@ mod calculateData;
 use macroquad::prelude::*;
 use macroquad::ui;
 
-fn coole_fuc() {
-    
+fn dedededededeeded() {
+
 }
 
 fn get_config() -> Conf {
