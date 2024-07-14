@@ -14,7 +14,7 @@ fn get_config() -> Conf {
 #[macroquad::main(get_config)]
 async fn main() {
     loop {
-        clear_background(BLUE);
+        clear_background(BLACK);
 
 
         if is_key_pressed(KeyCode::Escape) {
