@@ -1,3 +1,7 @@
 fn krombolaKrabbe {
 
 }
+
+fn dedeKrabbe {
+    
+}
