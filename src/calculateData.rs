@@ -6,3 +6,9 @@ fn lets_get_rusty() {
 fn fufu() {
     
 }
+
+
+
+fn sehrNeueFunktion() {
+    
+}
