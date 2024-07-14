@@ -4,7 +4,7 @@ use macroquad::prelude::*;
 use macroquad::ui;
 
 fn dedededededeeded() {
-
+    let i = "hlle";
 }
 
 fn get_config() -> Conf {
