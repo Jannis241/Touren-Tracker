@@ -1,25 +1,25 @@
-mod calculateData;
 
-use macroquad::prelude::*;
-use macroquad::ui;
 
-fn get_config() -> Conf {
-    Conf { window_title: "touren tracker".to_string(), window_width: 1920, window_height: 1080, fullscreen: true, window_resizable: false, ..Default::default()}
+
+
+use druid::{AppLauncher, Color, Widget, WindowDesc};
+use druid::widget::{Label, Flex, Button};
+
+fn build_ui() -> impl Widget<()> {
+    let label = Label::new("Hello, Druid!");
+    let button = Button::new("Click me").on_click(|_ctx, _data, _env| {
+        println!("Button clicked!");
+    });
+    Flex::column()
+        .with_child(label)
+        .with_child(button)
 }
 
-
-
-#[macroquad::main(get_config)]
-async fn main() {
-    loop {
-        clear_background(GRAY);
-
-
-        if is_key_pressed(KeyCode::Escape) {
-            break;
-        }
-
-
-        next_frame().await;
-    }
+fn main() {
+    let main_window = WindowDesc::new(build_ui())
+        .title("Druid Example")
+        .window_size((400.0, 400.0));
+    AppLauncher::with_window(main_window)
+        .launch(())
+        .expect("Failed to launch application");
 }
