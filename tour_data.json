@@ -1,0 +1,17 @@
+[
+  {
+    "name": "14.7 Tour",
+    "kilometer": 15.0,
+    "höhenmeter": 1300,
+    "tour_type": "Monster",
+    "teilnehmer": [
+      "Jannis",
+      "Jesko"
+    ],
+    "schwierigkeitsBonus": 2,
+    "geld": {
+      "Jesko": 9,
+      "Jannis": 9
+    }
+  }
+]
