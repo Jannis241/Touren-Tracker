@@ -65,7 +65,7 @@ fn write_to_json(tour: &Tour) {
 }
 
 impl Tour {
-    pub fn new(name: &str, kilometer: f32, höhenmeter: i32, teilnehmer: Vec<Person>, schwierigkeitsBonus: i32) -> Tour {
+    pub fn new(name: &str, kilometer: f32, höhenmeter: i32, teilnehmer: Vec<Person>, schwierigkeitsBonus: i32) {
         let name = name.to_string();
         let mut tour_type: Option<TourType> = None;
         if höhenmeter >= 0 && höhenmeter <= 499 {
@@ -111,7 +111,6 @@ impl Tour {
         let mut tour_with_geld = tour.clone();
         tour_with_geld.geld = geld;
         write_to_json(&tour_with_geld);
-        tour_with_geld
     }
 
     pub fn calculate_money(&self, person: Person) -> i32 {
@@ -141,5 +140,5 @@ impl Tour {
 }
 
 fn main() {
-    let neue_tour = Tour::new("14.7 Tour", 15.0, 1300, vec![Person::Jannis, Person::Jesko], 2);
+    Tour::new("test tour", 13.5, 1150, vec![Person::Mama, Person::Jesko, Person::Papa, Person::Jannis], 2)
 }
