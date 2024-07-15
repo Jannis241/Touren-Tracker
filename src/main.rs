@@ -140,5 +140,5 @@ impl Tour {
 }
 
 fn main() {
-    Tour::new("test tour", 13.5, 1150, vec![Person::Mama, Person::Jesko, Person::Papa, Person::Jannis], 2)
+    Tour::new("test tour 2", 8.5, 600, vec![Person::Mama, Person::Jesko, Person::Papa], 0)
 }
