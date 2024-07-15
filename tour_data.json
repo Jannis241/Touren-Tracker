@@ -1,0 +1,272 @@
+[
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jannis": 0,
+      "Jesko": 3
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jannis": 0,
+      "Jesko": 3
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jannis": 0,
+      "Jesko": 3
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jannis": 0,
+      "Jesko": 3
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "geile tour",
+    "kilometer": 34.0,
+    "höhenmeter": 500,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Papa",
+      "Jannis"
+    ],
+    "schwierigkeitsBonus": 3,
+    "geld": {
+      "Jesko": 0,
+      "Jannis": 8
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "neue tour",
+    "kilometer": 20.0,
+    "höhenmeter": 300,
+    "tour_type": "Leicht",
+    "teilnehmer": [
+      "Jannis",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 3,
+    "geld": {
+      "Jannis": 5,
+      "Jesko": 0
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "heue tour",
+    "kilometer": 15.0,
+    "höhenmeter": 1200,
+    "tour_type": "Monster",
+    "teilnehmer": [
+      "Jannis",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 3,
+    "geld": {
+      "Jesko": 0,
+      "Jannis": 10
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jesko": 3,
+      "Jannis": 0
+    }
+  },
+  {
+    "name": "testsetsetset",
+    "kilometer": 10.0,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Jannis",
+      "Jesko",
+      "Papa",
+      "Mama"
+    ],
+    "schwierigkeitsBonus": 300,
+    "geld": {
+      "Jesko": 304,
+      "Jannis": 304
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jannis": 0,
+      "Jesko": 3
+    }
+  },
+  {
+    "name": "test tour 2",
+    "kilometer": 8.5,
+    "höhenmeter": 600,
+    "tour_type": "Medium",
+    "teilnehmer": [
+      "Mama",
+      "Jesko",
+      "Papa"
+    ],
+    "schwierigkeitsBonus": 0,
+    "geld": {
+      "Jannis": 0,
+      "Jesko": 3
+    }
+  }
+]
