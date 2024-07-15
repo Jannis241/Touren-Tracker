@@ -113,7 +113,7 @@ impl Tour {
         write_to_json(&tour_with_geld);
     }
 
-    pub fn calculate_money(&self, person: Person) -> i32 {
+    fn calculate_money(&self, person: Person) -> i32 {
         let mut money = 0;
         if self.teilnehmer.contains(&person) {
             money += self.schwierigkeitsBonus;
